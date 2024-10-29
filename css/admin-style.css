@@ -1,0 +1,146 @@
+.applicationStatusCF7 header {
+    background: #fff;
+    padding: 10px 0;
+}
+.applicationStatusCF7 {
+    max-width: 1150px;
+    padding: 15px;
+    background-color: #fff;
+}
+label[for="applicationApplication"] {
+    background-image: url(../img/checkbox.png);
+    background-repeat: no-repeat;
+    background-position: right -22px;
+    padding-right: 60px;
+    padding-top: 1px;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+#applicationapplication + label{
+	background-color: red !important;
+}
+label[for="applicationApplication"].selected{
+	background-position: right 0px;
+}
+.fdiv > div {
+    display: inline-block;
+    float: left;
+}
+.new_item > div {
+    cursor: pointer;
+    color: #0085ba;
+    padding: 5px 0;
+}
+.fdiv {
+    overflow: hidden;
+}
+.fdiv > div.form-group {
+    position: relative;
+}
+.delete_item {
+    position: absolute;
+    top: -1px;
+    right: -3px;
+    display: none;
+}
+.delete_item > div {
+    font-size: 15px;
+    cursor: pointer;
+}
+.fdiv > div.form-group:hover .delete_item
+{
+	display: block;
+}
+
+
+ul.list-inline li {
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.applicatWrap {
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px;
+}
+.application_inner table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.application_inner table tr:hover {
+    background: #efefef;
+}
+.application_inner table tr td {
+    padding: 6px;
+    border-top: 1px solid #dfdfdf;
+    text-align: center;
+}
+.application_inner table.applicationDetails tr th{
+	border-top: 1px solid #dfdfdf;
+}
+table.applicationDetails thead {
+    background: #ddd;
+    padding: 50px;
+}
+table.applicationDetails td, table.applicationDetails th {
+    text-align: left;
+    padding: 0px 20px;
+}
+.app_wrap > ul.tabs {
+    border-bottom: 1px solid #ddd;
+}
+.app_wrap > ul.tabs li a {
+    background-color: #999;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+    margin-right: 0;
+}
+.app_wrap > ul.tabs li {margin-right:5px;}
+.app_wrap > ul.tabs li.active a,
+.app_wrap > ul.tabs li a:hover
+{background-color:#009688;}
+.tabElement{display: none;}
+.tabElement.active{display:block;}
+table.applicationDetails tbody tr td {
+    text-align: left;
+}
+table.emailTemplatetable tbody tr:nth-child(odd) textarea,
+table.emailTemplatetable tbody tr:nth-child(odd) {
+    background-color: #efefef;
+}
+.tabinner ul li div {
+    font-size: 15px;
+}
+.tabinner ul li:before {
+    content: "\f155";
+    font-family: dashicons;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+ul.my_add_list {
+    margin-top: -5px;
+    margin-bottom:0;
+}
+.applicatWrap div.myAdd {
+    display: inline-block;
+    float: right;
+    top: 0;
+}
+ul.my_add_list li {
+    display: inline-block;
+}
+.contF7Statusloading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #00000015;
+    z-index: 99999;
+}
+.contF7Statusloading > div.statusInner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
